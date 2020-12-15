@@ -5,7 +5,7 @@ import time
 '''
 Hardcoded Auto Typer Instructions:
     The auto typer is a bot that simulates typing the msg
-    The hardcoded version interacts with the user through the console. The user will be asked 
+    The console version interacts with the user through the console. The user will be asked 
     to what value he wants to set the variables.
 
     Keyword variables:

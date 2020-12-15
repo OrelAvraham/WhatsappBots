@@ -1,0 +1,4 @@
+sleep: 5
+times: -1
+word word word
+new sentence in the same message
