@@ -16,4 +16,11 @@ will three ways of activating:
 With great power comes great responsibility.
 
 All the consequences of using the bots without thinking are
-on you.   
+on you.  
+
+
+## Used libraries
+- time          ```should be already installed if you have python```
+- keyboard      ```pip install keyboard```
+- pyautogui     ```pip install pyautogui```
+- selenium      ```pip install -U selenium``` 
