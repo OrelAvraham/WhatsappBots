@@ -15,8 +15,8 @@ chrome_browser.get(r'https://web.whatsapp.com/')
 print('We are in! Scanning Completed')
 
 times = 3
-chats = ['Bot0', 'Bot1', 'Bot2']
-msgs = ['bla', 'bla bla', 'bla bla bla']
+chats = ['רוזין']
+msgs = ['bla']
 
 time.sleep(10)
 
@@ -29,10 +29,11 @@ while times > 0:
         except NoSuchElementException as e:
             search_bar = chrome_browser.find_element_by_xpath('//div[@class="_1awRl copyable-text selectable-text"]')
             search_bar.send_keys(chat_name + Keys.ENTER)
-            time.sleep(3)
+            time.sleep(5)
 
             chat = chrome_browser.find_element_by_xpath('//span[@title="{}"]'.format(chat_name))
             chat.click()
+
 
         print('Chat Opened!')
 
@@ -41,6 +42,7 @@ while times > 0:
         txt_box = chrome_browser.find_element_by_xpath('//div[@class="DuUXI"]')
         txt_box.send_keys(msg + Keys.ENTER)
     times -= 1
+
     if keyboard.is_pressed('q'):
         break
 
