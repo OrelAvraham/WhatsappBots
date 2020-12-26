@@ -25,7 +25,7 @@ if times > 0:
         pyautogui.press("enter")
 else:
     while 1:
-        if keyboard.is_pressed("q"):
+        if keyboard.is_pressed("enter"):
             break
         pyautogui.typewrite(msg)
         pyautogui.press("enter")
